@@ -1,0 +1,195 @@
+Standard Deviation
+
+Standard deviation is a measure of the amount of variation or dispersion in a set of values. It provides an indication of how much individual data points deviate from the mean (average) of the dataset. In other words, it quantifies the amount of uncertainty or spread in the data.
+
+Here's how it works:
+
+Calculate the Mean: Find the average of the dataset.
+Calculate the Deviation: For each data point, find the difference between the data point and the mean.
+Square the Deviation: Square each of these differences.
+Calculate the Mean of Squared Deviations: Find the average of these squared differences.
+Take the Square Root: Finally, take the square root of the result obtained in step 4 to get the standard deviation.
+Dataset: 2, 4, 6, 8
+
+Mean: (2 + 4 + 6 + 8) / 4 = 5
+
+Squared deviations: (2-5)^2 = 9, (4-5)^2 = 1, (6-5)^2 = 1, (8-5)^2 = 9
+
+Variance: (9 + 1 + 1 + 9) / 4 = 5
+
+Standard deviation: √5 ≈ 2.236
+
+Mean Absolute Deviation (MAD): Explained
+
+Mean Absolute Deviation is a measure of the average absolute difference between each data point in a dataset and the mean of that dataset. It provides a way to quantify the overall variability or spread of the data.
+
+Here's how you can calculate MAD:
+
+Calculate the Mean:
+Mean
+=
+Sum of all values
+Number of values
+Mean= 
+Number of values
+Sum of all values
+​
+ 
+
+Calculate the Absolute Deviation for Each Data Point:
+Absolute Deviation
+=
+∣
+Data Point
+−
+Mean
+∣
+Absolute Deviation=∣Data Point−Mean∣
+
+Calculate the Mean of Absolute Deviations:
+MAD
+=
+Sum of Absolute Deviations
+Number of values
+MAD= 
+Number of values
+Sum of Absolute Deviations
+​
+ 
+
+Example: Daily Temperature Readings
+
+Consider the daily temperature readings (in degrees Celsius) over a week:
+
+Temperatures
+=
+[
+25
+,
+26
+,
+24
+,
+23
+,
+27
+,
+25
+,
+26
+]
+Temperatures=[25,26,24,23,27,25,26]
+
+Let's calculate MAD step by step:
+
+Calculate the Mean:
+Mean
+=
+25
++
+26
++
+24
++
+23
++
+27
++
+25
++
+26
+7
+≈
+25.14
+Mean= 
+7
+25+26+24+23+27+25+26
+​
+ ≈25.14
+
+Calculate the Absolute Deviation for Each Data Point:
+
+∣
+25
+−
+25.14
+∣
+≈
+0.14
+∣25−25.14∣≈0.14
+∣
+26
+−
+25.14
+∣
+≈
+0.86
+∣26−25.14∣≈0.86
+∣
+24
+−
+25.14
+∣
+≈
+1.14
+∣24−25.14∣≈1.14
+∣
+23
+−
+25.14
+∣
+≈
+2.14
+∣23−25.14∣≈2.14
+∣
+27
+−
+25.14
+∣
+≈
+1.86
+∣27−25.14∣≈1.86
+∣
+25
+−
+25.14
+∣
+≈
+0.14
+∣25−25.14∣≈0.14
+∣
+26
+−
+25.14
+∣
+≈
+0.86
+∣26−25.14∣≈0.86
+Calculate the Mean of Absolute Deviations:
+MAD
+=
+0.14
++
+0.86
++
+1.14
++
+2.14
++
+1.86
++
+0.14
++
+0.86
+7
+≈
+1.07
+MAD= 
+7
+0.14+0.86+1.14+2.14+1.86+0.14+0.86
+​
+ ≈1.07
+
+So, the Mean Absolute Deviation for the daily temperatures is approximately 
+1.07
+1.07 degrees Celsius.
