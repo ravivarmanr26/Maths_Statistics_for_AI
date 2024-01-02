@@ -1,0 +1,35 @@
+Normal Distribution:
+Definition:
+A normal distribution, also known as a Gaussian distribution or bell curve, is a symmetric probability distribution that is characterized by a bell-shaped curve. In a normal distribution:
+
+The mean (average) is at the center.
+The spread of data is determined by the standard deviation.
+The majority of data falls within one, two, or three standard deviations from the mean.
+Example:
+Imagine you are collecting the heights of students in a college. If the heights follow a normal distribution, most students will have heights around the average height (mean), and very few will be extremely tall or extremely short.
+
+Use Cases in Data Science:
+
+Many natural phenomena, such as human height, test scores, and errors in measurements, often follow a normal distribution.
+Normal distribution is frequently assumed in statistical methods, making it a fundamental concept in hypothesis testing and parameter estimation.
+Z-Score:
+Definition:
+A Z-score (or standard score) measures how many standard deviations a data point is from the mean of a distribution. It helps to understand where a particular data point stands relative to the rest of the data.
+
+Example:
+If the average height of students is 160 cm with a standard deviation of 10 cm, and a student has a height of 170 cm, the Z-score would be +1.0. This indicates that the student's height is one standard deviation above the average.
+
+Use Cases in Data Science:
+
+Identifying outliers: Z-scores can be used to detect data points that deviate significantly from the average, helping in outlier detection.
+Standardization: Z-scores are used to standardize data, making it easier to compare different datasets or variables on a common scale.
+Simplified Explanation:
+Imagine normal distribution as a shape of data that looks like a bell, where most of the data is in the middle and tails off as you move away. The Z-score is like a way of saying how far a single piece of data is from the middle of that bell, helping us understand if it's typical or unusual.
+
+In data science, normal distribution helps us understand how common or rare certain values are, and Z-scores help us measure and compare individual values in terms of standard deviations from the average.
+
+
+
+
+
+
